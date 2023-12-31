@@ -48,6 +48,9 @@ void delFromEnd(int length)
     currentNode->next = nextNode->next;
     tail = currentNode;
     free(nextNode);
+
+
+
 }
 
 void delFromPos(int length)
